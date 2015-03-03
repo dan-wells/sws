@@ -1,0 +1,3120 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix gn: <http://sws.geonames.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix swportal: <http://sw-portal.deri.org/ontologies/swportal#> .
+@prefix sws: <http://vocab.inf.ed.ac.uk/sws/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sws:Afghanistan
+    dbpprop:commonName "Afghanistan"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "648"^^xsd:integer;
+    sws:populationMil "16"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol dbpedia:Green .
+
+sws:Albania
+    dbpprop:commonName "Albania"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "29"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Marxism;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Algeria
+    dbpprop:commonName "Algeria"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "2388"^^xsd:integer;
+    sws:populationMil "20"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numBars "2"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Crescent;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:White .
+
+sws:American-Samoa
+    dbpprop:commonName "American-Samoa"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, sws:Orange_Brown, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:hasElement sws:Animate_image, dbpedia:Triangle, sws:Icon;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:Andorra
+    dbpprop:commonName "Andorra"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:Angola
+    dbpprop:commonName "Angola"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "1247"^^xsd:integer;
+    sws:populationMil "7"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Black .
+
+sws:Anguilla
+    dbpprop:commonName "Anguilla"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "1"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Orange_Brown, dbpedia:White;
+    sws:mainHue dbpedia:White;
+    sws:hasElement sws:Animate_image;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Antigua-Barbuda
+    dbpprop:commonName "Antigua-Barbuda"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "1"^^xsd:integer;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol dbpedia:Red .
+
+sws:Argentina
+    dbpprop:commonName "Argentina"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "2777"^^xsd:integer;
+    sws:populationMil "28"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Argentine
+    dbpprop:commonName "Argentine"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "2777"^^xsd:integer;
+    sws:populationMil "28"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Australia
+    dbpprop:commonName "Australia"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "7690"^^xsd:integer;
+    sws:populationMil "15"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "6"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Austria
+    dbpprop:commonName "Austria"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "84"^^xsd:integer;
+    sws:populationMil "8"^^xsd:integer;
+    dbpedia-owl:language dbpedia:German_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Bahamas
+    dbpprop:commonName "Bahamas"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "19"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black;
+    sws:mainHue dbpedia:Blue;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Bahrain
+    dbpprop:commonName "Bahrain"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "1"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Red .
+
+sws:Bangladesh
+    dbpprop:commonName "Bangladesh"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "143"^^xsd:integer;
+    sws:populationMil "90"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:numCircles "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:Barbados
+    dbpprop:commonName "Barbados"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black;
+    sws:mainHue dbpedia:Blue;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Belgium
+    dbpprop:commonName "Belgium"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "31"^^xsd:integer;
+    sws:populationMil "10"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol dbpedia:Red .
+
+sws:Belize
+    dbpprop:commonName "Belize"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "23"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "8"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black, sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCircles "1"^^xsd:integer;
+    sws:hasElement dbpedia:Text, sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Benin
+    dbpprop:commonName "Benin"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "113"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:Bermuda
+    dbpprop:commonName "Bermuda"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "6"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Red .
+
+sws:Bhutan
+    dbpprop:commonName "Bhutan"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "47"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Buddhism;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, sws:Orange_Brown, dbpedia:White, dbpedia:Red;
+    sws:mainHue sws:Orange_Brown;
+    sws:numCircles "4"^^xsd:integer;
+    sws:hasElement sws:Animate_image;
+    sws:topLeftCol sws:Orange_Brown;
+    sws:botRightCol dbpedia:Red .
+
+sws:Bolivia
+    dbpprop:commonName "Bolivia"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "1099"^^xsd:integer;
+    sws:populationMil "6"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Botswana
+    dbpprop:commonName "Botswana"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "600"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:Black, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Brazil
+    dbpprop:commonName "Brazil"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "8512"^^xsd:integer;
+    sws:populationMil "119"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Green, dbpedia:White;
+    sws:mainHue dbpedia:Green;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numSunStars "22"^^xsd:integer;
+    sws:hasElement dbpedia:Text;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:British-Virgin-Isles
+    dbpprop:commonName "British-Virgin-Isles"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "6"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:hasElement dbpedia:Text, sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Brunei
+    dbpprop:commonName "Brunei"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "6"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:White, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:hasElement dbpedia:Text, sws:Animate_image, dbpedia:Triangle, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol sws:Gold_Yellow .
+
+sws:Bulgaria
+    dbpprop:commonName "Bulgaria"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "111"^^xsd:integer;
+    sws:populationMil "9"^^xsd:integer;
+    dbpedia-owl:language [dbpedia-owl:languageFamily dbpedia:Slavic_languages];
+    dbpprop:religion dbpedia:Marxism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Red .
+
+sws:Burkina
+    dbpprop:commonName "Burkina"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "274"^^xsd:integer;
+    sws:populationMil "7"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Burma
+    dbpprop:commonName "Burma"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "678"^^xsd:integer;
+    sws:populationMil "35"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Buddhism;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "14"^^xsd:integer;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:Burundi
+    dbpprop:commonName "Burundi"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "28"^^xsd:integer;
+    sws:populationMil "4"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numSunStars "3"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:White .
+
+sws:Cameroon
+    dbpprop:commonName "Cameroon"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "474"^^xsd:integer;
+    sws:populationMil "8"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol sws:Gold_Yellow .
+
+sws:Canada
+    dbpprop:commonName "Canada"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "9976"^^xsd:integer;
+    sws:populationMil "24"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numBars "2"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:hasElement sws:Animate_image;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Cape-Verde-Islands
+    dbpprop:commonName "Cape-Verde-Islands"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "4"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "1"^^xsd:integer;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, sws:Orange_Brown, dbpedia:Green, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Cayman-Islands
+    dbpprop:commonName "Cayman-Islands"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "6"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "4"^^xsd:integer;
+    sws:hasElement dbpedia:Text, sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Central-African-Republic
+    dbpprop:commonName "Central-African-Republic"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "623"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numBars "1"^^xsd:integer;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol sws:Gold_Yellow .
+
+sws:Chad
+    dbpprop:commonName "Chad"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "1284"^^xsd:integer;
+    sws:populationMil "4"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:Chile
+    dbpprop:commonName "Chile"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "757"^^xsd:integer;
+    sws:populationMil "11"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:China
+    dbpprop:commonName "China"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "9561"^^xsd:integer;
+    sws:populationMil "1008"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Chinese_language;
+    dbpprop:religion dbpedia:Marxism;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "5"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Colombia
+    dbpprop:commonName "Colombia"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "1139"^^xsd:integer;
+    sws:populationMil "28"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:topLeftCol sws:Gold_Yellow;
+    sws:botRightCol dbpedia:Red .
+
+sws:Comorro-Islands
+    dbpprop:commonName "Comorro-Islands"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "2"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White;
+    sws:mainHue dbpedia:Green;
+    sws:numSunStars "4"^^xsd:integer;
+    sws:hasElement dbpedia:Crescent;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:Congo
+    dbpprop:commonName "Congo"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "342"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Cook-Islands
+    dbpprop:commonName "Cook-Islands"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "15"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Costa-Rica
+    dbpprop:commonName "Costa-Rica"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "51"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Cuba
+    dbpprop:commonName "Cuba"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "115"^^xsd:integer;
+    sws:populationMil "10"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Marxism;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Cyprus
+    dbpprop:commonName "Cyprus"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "9"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:White;
+    sws:mainHue dbpedia:White;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:White .
+
+sws:Czechoslovakia
+    dbpprop:commonName "Czechoslovakia"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "128"^^xsd:integer;
+    sws:populationMil "15"^^xsd:integer;
+    dbpedia-owl:language [dbpedia-owl:languageFamily dbpedia:Slavic_languages];
+    dbpprop:religion dbpedia:Marxism;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Red .
+
+sws:Denmark
+    dbpprop:commonName "Denmark"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "43"^^xsd:integer;
+    sws:populationMil "5"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Djibouti
+    dbpprop:commonName "Djibouti"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "22"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Green .
+
+sws:Dominica
+    dbpprop:commonName "Dominica"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "6"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numSunStars "10"^^xsd:integer;
+    sws:hasElement sws:Animate_image;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:Dominican-Republic
+    dbpprop:commonName "Dominican-Republic"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "49"^^xsd:integer;
+    sws:populationMil "6"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Ecuador
+    dbpprop:commonName "Ecuador"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "284"^^xsd:integer;
+    sws:populationMil "8"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:topLeftCol sws:Gold_Yellow;
+    sws:botRightCol dbpedia:Red .
+
+sws:Egypt
+    dbpprop:commonName "Egypt"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "1001"^^xsd:integer;
+    sws:populationMil "47"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Black;
+    sws:hasElement dbpedia:Text, sws:Animate_image;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Black .
+
+sws:El-Salvador
+    dbpprop:commonName "El-Salvador"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "21"^^xsd:integer;
+    sws:populationMil "5"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Equatorial-Guinea
+    dbpprop:commonName "Equatorial-Guinea"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "28"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Red .
+
+sws:Ethiopia
+    dbpprop:commonName "Ethiopia"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "1222"^^xsd:integer;
+    sws:populationMil "31"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Red .
+
+sws:Faeroes
+    dbpprop:commonName "Faeroes"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "1"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:White .
+
+sws:Falklands-Malvinas
+    dbpprop:commonName "Falklands-Malvinas"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "12"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "6"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:hasElement dbpedia:Text, sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Fiji
+    dbpprop:commonName "Fiji"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "18"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "7"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "2"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Finland
+    dbpprop:commonName "Finland"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "337"^^xsd:integer;
+    sws:populationMil "5"^^xsd:integer;
+    dbpedia-owl:language sws:Japanese_Turkish_Finnish_Magyar_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:White;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:White .
+
+sws:France
+    dbpprop:commonName "France"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "547"^^xsd:integer;
+    sws:populationMil "54"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:French-Guiana
+    dbpprop:commonName "French-Guiana"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "91"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:French-Polynesia
+    dbpprop:commonName "French-Polynesia"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "4"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Gabon
+    dbpprop:commonName "Gabon"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "268"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Green;
+    sws:mainHue dbpedia:Green;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Gambia
+    dbpprop:commonName "Gambia"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "10"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Germany-DDR
+    dbpprop:commonName "Germany-DDR"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "108"^^xsd:integer;
+    sws:populationMil "17"^^xsd:integer;
+    dbpedia-owl:language dbpedia:German_language;
+    dbpprop:religion dbpedia:Marxism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol sws:Gold_Yellow .
+
+sws:Germany-FRG
+    dbpprop:commonName "Germany-FRG"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "249"^^xsd:integer;
+    sws:populationMil "61"^^xsd:integer;
+    dbpedia-owl:language dbpedia:German_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Red;
+    sws:mainHue dbpedia:Black;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol sws:Gold_Yellow .
+
+sws:Ghana
+    dbpprop:commonName "Ghana"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "239"^^xsd:integer;
+    sws:populationMil "14"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Gibraltar
+    dbpprop:commonName "Gibraltar"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "1"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Red .
+
+sws:Greece
+    dbpprop:commonName "Greece"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "132"^^xsd:integer;
+    sws:populationMil "10"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "9"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Greenland
+    dbpprop:commonName "Greenland"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "2176"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:numCircles "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Red .
+
+sws:Grenada
+    dbpprop:commonName "Grenada"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numSunStars "7"^^xsd:integer;
+    sws:hasElement sws:Animate_image, dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Guam
+    dbpprop:commonName "Guam"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "7"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:hasElement dbpedia:Text, sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Guatemala
+    dbpprop:commonName "Guatemala"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "109"^^xsd:integer;
+    sws:populationMil "8"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Guinea
+    dbpprop:commonName "Guinea"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "246"^^xsd:integer;
+    sws:populationMil "6"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Guinea-Bissau
+    dbpprop:commonName "Guinea-Bissau"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "36"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numBars "1"^^xsd:integer;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Guyana
+    dbpprop:commonName "Guyana"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "215"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion dbpedia:Hinduism;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol dbpedia:Green .
+
+sws:Haiti
+    dbpprop:commonName "Haiti"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "28"^^xsd:integer;
+    sws:populationMil "6"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "2"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:Red;
+    sws:mainHue dbpedia:Black;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol dbpedia:Red .
+
+sws:Honduras
+    dbpprop:commonName "Honduras"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "112"^^xsd:integer;
+    sws:populationMil "4"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:numSunStars "5"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Hong-Kong
+    dbpprop:commonName "Hong-Kong"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "1"^^xsd:integer;
+    sws:populationMil "5"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Chinese_language;
+    dbpprop:religion dbpedia:Buddhism;
+    sws:numColours "6"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:hasElement dbpedia:Text, sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Hungary
+    dbpprop:commonName "Hungary"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "93"^^xsd:integer;
+    sws:populationMil "11"^^xsd:integer;
+    dbpedia-owl:language sws:Japanese_Turkish_Finnish_Magyar_language;
+    dbpprop:religion dbpedia:Marxism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Iceland
+    dbpprop:commonName "Iceland"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "103"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:India
+    dbpprop:commonName "India"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "3268"^^xsd:integer;
+    sws:populationMil "684"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Hinduism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Orange_Brown, dbpedia:Green, dbpedia:White;
+    sws:mainHue sws:Orange_Brown;
+    sws:numCircles "1"^^xsd:integer;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol sws:Orange_Brown;
+    sws:botRightCol dbpedia:Green .
+
+sws:Indonesia
+    dbpprop:commonName "Indonesia"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "1904"^^xsd:integer;
+    sws:populationMil "157"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:White .
+
+sws:Iran
+    dbpprop:commonName "Iran"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "1648"^^xsd:integer;
+    sws:populationMil "39"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:hasElement dbpedia:Text, sws:Icon;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Red .
+
+sws:Iraq
+    dbpprop:commonName "Iraq"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "435"^^xsd:integer;
+    sws:populationMil "14"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "3"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Black .
+
+sws:Ireland
+    dbpprop:commonName "Ireland"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "70"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Orange_Brown, dbpedia:Green, dbpedia:White;
+    sws:mainHue dbpedia:White;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol sws:Orange_Brown .
+
+sws:Israel
+    dbpprop:commonName "Israel"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "21"^^xsd:integer;
+    sws:populationMil "4"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Other_religion;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:White;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Italy
+    dbpprop:commonName "Italy"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "301"^^xsd:integer;
+    sws:populationMil "57"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Red .
+
+sws:Ivory-Coast
+    dbpprop:commonName "Ivory-Coast"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "323"^^xsd:integer;
+    sws:populationMil "7"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Jamaica
+    dbpprop:commonName "Jamaica"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "11"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Green;
+    sws:mainHue dbpedia:Green;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol sws:Gold_Yellow;
+    sws:botRightCol sws:Gold_Yellow .
+
+sws:Japan
+    dbpprop:commonName "Japan"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "372"^^xsd:integer;
+    sws:populationMil "118"^^xsd:integer;
+    dbpedia-owl:language sws:Japanese_Turkish_Finnish_Magyar_language;
+    dbpprop:religion sws:Other_religion;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:White .
+
+sws:Jordan
+    dbpprop:commonName "Jordan"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "98"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Black;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol dbpedia:Green .
+
+sws:Kampuchea
+    dbpprop:commonName "Kampuchea"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "181"^^xsd:integer;
+    sws:populationMil "6"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Buddhism;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Kenya
+    dbpprop:commonName "Kenya"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "583"^^xsd:integer;
+    sws:populationMil "17"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCircles "1"^^xsd:integer;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol dbpedia:Green .
+
+sws:Kiribati
+    dbpprop:commonName "Kiribati"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Kuwait
+    dbpprop:commonName "Kuwait"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "18"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Red .
+
+sws:Laos
+    dbpprop:commonName "Laos"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "236"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Marxism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCircles "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Lebanon
+    dbpprop:commonName "Lebanon"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "10"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:hasElement sws:Animate_image;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Lesotho
+    dbpprop:commonName "Lesotho"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "30"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numBars "2"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Liberia
+    dbpprop:commonName "Liberia"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "111"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "11"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:Libya
+    dbpprop:commonName "Libya"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "1760"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "1"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green;
+    sws:mainHue dbpedia:Green;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:Liechtenstein
+    dbpprop:commonName "Liechtenstein"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:German_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:Luxembourg
+    dbpprop:commonName "Luxembourg"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "3"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:German_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Malagasy
+    dbpprop:commonName "Malagasy"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "587"^^xsd:integer;
+    sws:populationMil "9"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numBars "1"^^xsd:integer;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Green .
+
+sws:Malawi
+    dbpprop:commonName "Malawi"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "118"^^xsd:integer;
+    sws:populationMil "6"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol dbpedia:Green .
+
+sws:Malaysia
+    dbpprop:commonName "Malaysia"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "333"^^xsd:integer;
+    sws:populationMil "13"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "14"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Crescent;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:White .
+
+sws:Maldive-Islands
+    dbpprop:commonName "Maldive-Islands"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:hasElement dbpedia:Crescent;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Mali
+    dbpprop:commonName "Mali"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "1240"^^xsd:integer;
+    sws:populationMil "7"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Red .
+
+sws:Malta
+    dbpprop:commonName "Malta"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "2"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Red .
+
+sws:Marianas
+    dbpprop:commonName "Marianas"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Mauritania
+    dbpprop:commonName "Mauritania"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "1031"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green;
+    sws:mainHue dbpedia:Green;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Crescent;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:Mauritius
+    dbpprop:commonName "Mauritius"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "2"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion dbpedia:Hinduism;
+    sws:numStripes "4"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Mexico
+    dbpprop:commonName "Mexico"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "1973"^^xsd:integer;
+    sws:populationMil "77"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:hasElement sws:Animate_image;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Red .
+
+sws:Micronesia
+    dbpprop:commonName "Micronesia"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "1"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:numSunStars "4"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Monaco
+    dbpprop:commonName "Monaco"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:White .
+
+sws:Mongolia
+    dbpprop:commonName "Mongolia"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "1566"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Marxism;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCircles "2"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle, dbpedia:Crescent, sws:Icon;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Montserrat
+    dbpprop:commonName "Montserrat"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "7"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "2"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Morocco
+    dbpprop:commonName "Morocco"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "447"^^xsd:integer;
+    sws:populationMil "20"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Mozambique
+    dbpprop:commonName "Mozambique"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "783"^^xsd:integer;
+    sws:populationMil "12"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle, sws:Icon;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol sws:Gold_Yellow .
+
+sws:Nauru
+    dbpprop:commonName "Nauru"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Nepal
+    dbpprop:commonName "Nepal"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "140"^^xsd:integer;
+    sws:populationMil "16"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Hinduism;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Orange_Brown, dbpedia:White;
+    sws:mainHue sws:Orange_Brown;
+    sws:numSunStars "2"^^xsd:integer;
+    sws:hasElement dbpedia:Crescent;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Netherlands
+    dbpprop:commonName "Netherlands"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "41"^^xsd:integer;
+    sws:populationMil "14"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Netherlands-Antilles
+    dbpprop:commonName "Netherlands-Antilles"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "1"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:numSunStars "6"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:White .
+
+sws:New-Zealand
+    dbpprop:commonName "New-Zealand"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "268"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "4"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Nicaragua
+    dbpprop:commonName "Nicaragua"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "128"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Niger
+    dbpprop:commonName "Niger"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "1267"^^xsd:integer;
+    sws:populationMil "5"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Orange_Brown, dbpedia:Green, dbpedia:White;
+    sws:mainHue sws:Orange_Brown;
+    sws:numCircles "1"^^xsd:integer;
+    sws:topLeftCol sws:Orange_Brown;
+    sws:botRightCol dbpedia:Green .
+
+sws:Nigeria
+    dbpprop:commonName "Nigeria"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "925"^^xsd:integer;
+    sws:populationMil "56"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White;
+    sws:mainHue dbpedia:Green;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:Niue
+    dbpprop:commonName "Niue"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:White, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "5"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol sws:Gold_Yellow .
+
+sws:North-Korea
+    dbpprop:commonName "North-Korea"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "121"^^xsd:integer;
+    sws:populationMil "18"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Marxism;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:North-Yemen
+    dbpprop:commonName "North-Yemen"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "195"^^xsd:integer;
+    sws:populationMil "9"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Black .
+
+sws:Norway
+    dbpprop:commonName "Norway"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "324"^^xsd:integer;
+    sws:populationMil "4"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Oman
+    dbpprop:commonName "Oman"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "212"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Pakistan
+    dbpprop:commonName "Pakistan"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "804"^^xsd:integer;
+    sws:populationMil "84"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numBars "1"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White;
+    sws:mainHue dbpedia:Green;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Crescent;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Green .
+
+sws:Panama
+    dbpprop:commonName "Panama"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "76"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numQuarters "4"^^xsd:integer;
+    sws:numSunStars "2"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:White .
+
+sws:Papua-New-Guinea
+    dbpprop:commonName "Papua-New-Guinea"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "463"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Black;
+    sws:numSunStars "5"^^xsd:integer;
+    sws:hasElement sws:Animate_image, dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Black .
+
+sws:Parguay
+    dbpprop:commonName "Parguay"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "407"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "6"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Text, sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Peru
+    dbpprop:commonName "Peru"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "1285"^^xsd:integer;
+    sws:populationMil "14"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Philippines
+    dbpprop:commonName "Philippines"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "300"^^xsd:integer;
+    sws:populationMil "48"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numSunStars "4"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:Poland
+    dbpprop:commonName "Poland"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "313"^^xsd:integer;
+    sws:populationMil "36"^^xsd:integer;
+    dbpedia-owl:language [dbpedia-owl:languageFamily dbpedia:Slavic_languages];
+    dbpprop:religion dbpedia:Marxism;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Red .
+
+sws:Portugal
+    dbpprop:commonName "Portugal"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "92"^^xsd:integer;
+    sws:populationMil "10"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCircles "1"^^xsd:integer;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Red .
+
+sws:Puerto-Rico
+    dbpprop:commonName "Puerto-Rico"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "9"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Qatar
+    dbpprop:commonName "Qatar"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "11"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour sws:Orange_Brown, dbpedia:White;
+    sws:mainHue sws:Orange_Brown;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol sws:Orange_Brown .
+
+sws:Romania
+    dbpprop:commonName "Romania"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "237"^^xsd:integer;
+    sws:populationMil "22"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Marxism;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "7"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "2"^^xsd:integer;
+    sws:hasElement dbpedia:Text, sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:Rwanda
+    dbpprop:commonName "Rwanda"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "26"^^xsd:integer;
+    sws:populationMil "5"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:hasElement dbpedia:Text;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:San-Marino
+    dbpprop:commonName "San-Marino"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:White;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Sao-Tome
+    dbpprop:commonName "Sao-Tome"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:numSunStars "2"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:Saudi-Arabia
+    dbpprop:commonName "Saudi-Arabia"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "2150"^^xsd:integer;
+    sws:populationMil "9"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White;
+    sws:mainHue dbpedia:Green;
+    sws:hasElement dbpedia:Text, sws:Icon;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:Senegal
+    dbpprop:commonName "Senegal"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "196"^^xsd:integer;
+    sws:populationMil "6"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Red .
+
+sws:Seychelles
+    dbpprop:commonName "Seychelles"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Sierra-Leone
+    dbpprop:commonName "Sierra-Leone"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "72"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:Green, dbpedia:White;
+    sws:mainHue dbpedia:Green;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Singapore
+    dbpprop:commonName "Singapore"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "1"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Chinese_language;
+    dbpprop:religion dbpedia:Buddhism;
+    sws:numStripes "2"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:numSunStars "5"^^xsd:integer;
+    sws:hasElement dbpedia:Crescent;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:White .
+
+sws:Soloman-Islands
+    dbpprop:commonName "Soloman-Islands"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "30"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Green, dbpedia:White;
+    sws:mainHue dbpedia:Green;
+    sws:numSunStars "5"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Green .
+
+sws:Somalia
+    dbpprop:commonName "Somalia"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "637"^^xsd:integer;
+    sws:populationMil "5"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:South-Africa
+    dbpprop:commonName "South-Africa"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "1221"^^xsd:integer;
+    sws:populationMil "29"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue sws:Orange_Brown;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:topLeftCol sws:Orange_Brown;
+    sws:botRightCol dbpedia:Blue .
+
+sws:South-Korea
+    dbpprop:commonName "South-Korea"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "99"^^xsd:integer;
+    sws:populationMil "39"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Other_religion;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:Black, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:numCircles "1"^^xsd:integer;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:White .
+
+sws:South-Yemen
+    dbpprop:commonName "South-Yemen"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "288"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:Black, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Black .
+
+sws:Spain
+    dbpprop:commonName "Spain"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "505"^^xsd:integer;
+    sws:populationMil "38"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Sri-Lanka
+    dbpprop:commonName "Sri-Lanka"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "66"^^xsd:integer;
+    sws:populationMil "15"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Buddhism;
+    sws:numBars "2"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, sws:Orange_Brown, dbpedia:Green;
+    sws:mainHue sws:Gold_Yellow;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol sws:Gold_Yellow;
+    sws:botRightCol sws:Gold_Yellow .
+
+sws:St-Helena
+    dbpprop:commonName "St-Helena"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "7"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:St-Kitts-Nevis
+    dbpprop:commonName "St-Kitts-Nevis"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:numSunStars "2"^^xsd:integer;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Red .
+
+sws:St-Lucia
+    dbpprop:commonName "St-Lucia"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black, dbpedia:White;
+    sws:mainHue dbpedia:Blue;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:St-Vincent
+    dbpprop:commonName "St-Vincent"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numBars "5"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Green, dbpedia:White;
+    sws:mainHue dbpedia:Green;
+    sws:hasElement dbpedia:Text, sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Green .
+
+sws:Sudan
+    dbpprop:commonName "Sudan"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "2506"^^xsd:integer;
+    sws:populationMil "20"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Black .
+
+sws:Surinam
+    dbpprop:commonName "Surinam"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "63"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:Swaziland
+    dbpprop:commonName "Swaziland"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "17"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "7"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black, sws:Orange_Brown, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Sweden
+    dbpprop:commonName "Sweden"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "450"^^xsd:integer;
+    sws:populationMil "8"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Switzerland
+    dbpprop:commonName "Switzerland"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "41"^^xsd:integer;
+    sws:populationMil "6"^^xsd:integer;
+    dbpedia-owl:language dbpedia:German_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Syria
+    dbpprop:commonName "Syria"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "185"^^xsd:integer;
+    sws:populationMil "10"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "2"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Black .
+
+sws:Taiwan
+    dbpprop:commonName "Taiwan"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "36"^^xsd:integer;
+    sws:populationMil "18"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Chinese_language;
+    dbpprop:religion dbpedia:Buddhism;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:Tanzania
+    dbpprop:commonName "Tanzania"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "945"^^xsd:integer;
+    sws:populationMil "18"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black, dbpedia:Green;
+    sws:mainHue dbpedia:Green;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Thailand
+    dbpprop:commonName "Thailand"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "514"^^xsd:integer;
+    sws:populationMil "49"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Buddhism;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Togo
+    dbpprop:commonName "Togo"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "57"^^xsd:integer;
+    sws:populationMil "2"^^xsd:integer;
+    dbpedia-owl:language dbpedia:French_language;
+    dbpprop:religion sws:Other_religion;
+    sws:numStripes "5"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Green .
+
+sws:Tonga
+    dbpprop:commonName "Tonga"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "1"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Red .
+
+sws:Trinidad-Tobago
+    dbpprop:commonName "Trinidad-Tobago"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "5"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:hasElement dbpedia:Triangle;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:White .
+
+sws:Tunisia
+    dbpprop:commonName "Tunisia"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "164"^^xsd:integer;
+    sws:populationMil "7"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCircles "1"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Crescent;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Turkey
+    dbpprop:commonName "Turkey"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "781"^^xsd:integer;
+    sws:populationMil "45"^^xsd:integer;
+    dbpedia-owl:language sws:Japanese_Turkish_Finnish_Magyar_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement dbpedia:Crescent;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Turks-Cocos-Islands
+    dbpprop:commonName "Turks-Cocos-Islands"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "6"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:Tuvalu
+    dbpprop:commonName "Tuvalu"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Blue;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "9"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Blue .
+
+sws:UAE
+    dbpprop:commonName "UAE"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "84"^^xsd:integer;
+    sws:populationMil "1"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Arabic_language;
+    dbpprop:religion dbpedia:Islam;
+    sws:numBars "1"^^xsd:integer;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Black .
+
+sws:UK
+    dbpprop:commonName "UK"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "245"^^xsd:integer;
+    sws:populationMil "56"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numCrosses "1"^^xsd:integer;
+    sws:numSaltires "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:Red .
+
+sws:US-Virgin-Isles
+    dbpprop:commonName "US-Virgin-Isles"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "6"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:hasElement dbpedia:Text, sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:White .
+
+sws:USA
+    dbpprop:commonName "USA"^^xsd:string;
+    swportal:inContinent gn:6255149;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "9363"^^xsd:integer;
+    sws:populationMil "231"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numStripes "13"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:White;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "50"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:USSR
+    dbpprop:commonName "USSR"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "22402"^^xsd:integer;
+    sws:populationMil "274"^^xsd:integer;
+    dbpedia-owl:language [dbpedia-owl:languageFamily dbpedia:Slavic_languages];
+    dbpprop:religion dbpedia:Marxism;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Uganda
+    dbpprop:commonName "Uganda"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "236"^^xsd:integer;
+    sws:populationMil "13"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "6"^^xsd:integer;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:White, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:numCircles "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol dbpedia:Red .
+
+sws:Uruguay
+    dbpprop:commonName "Uruguay"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "178"^^xsd:integer;
+    sws:populationMil "3"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "9"^^xsd:integer;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:White;
+    sws:mainHue dbpedia:White;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:White;
+    sws:botRightCol dbpedia:White .
+
+sws:Vanuatu
+    dbpprop:commonName "Vanuatu"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "15"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:hasElement sws:Animate_image, dbpedia:Triangle;
+    sws:topLeftCol dbpedia:Black;
+    sws:botRightCol dbpedia:Green .
+
+sws:Vatican-City
+    dbpprop:commonName "Vatican-City"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "0"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numBars "2"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:White, dbpedia:Red;
+    sws:mainHue sws:Gold_Yellow;
+    sws:hasElement sws:Icon;
+    sws:topLeftCol sws:Gold_Yellow;
+    sws:botRightCol dbpedia:White .
+
+sws:Venezuela
+    dbpprop:commonName "Venezuela"^^xsd:string;
+    swportal:inContinent gn:6255150;
+    sws:quadrant sws:NW;
+    sws:areaThouKm "912"^^xsd:integer;
+    sws:populationMil "15"^^xsd:integer;
+    dbpedia-owl:language dbpedia:Spanish_language;
+    dbpprop:religion dbpedia:Catholicism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "7"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:Black, sws:Orange_Brown, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "7"^^xsd:integer;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol sws:Gold_Yellow;
+    sws:botRightCol dbpedia:Red .
+
+sws:Vietnam
+    dbpprop:commonName "Vietnam"^^xsd:string;
+    swportal:inContinent gn:6255147;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "333"^^xsd:integer;
+    sws:populationMil "60"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion dbpedia:Marxism;
+    sws:numColours "2"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Red;
+    sws:botRightCol dbpedia:Red .
+
+sws:Western-Samoa
+    dbpprop:commonName "Western-Samoa"^^xsd:string;
+    swportal:inContinent gn:6255151;
+    sws:quadrant sws:SW;
+    sws:areaThouKm "3"^^xsd:integer;
+    sws:populationMil "0"^^xsd:integer;
+    dbpedia-owl:language dbpedia:English_language;
+    dbpprop:religion sws:Other_Christian;
+    sws:numColours "3"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numQuarters "1"^^xsd:integer;
+    sws:numSunStars "5"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:Yugoslavia
+    dbpprop:commonName "Yugoslavia"^^xsd:string;
+    swportal:inContinent gn:6255148;
+    sws:quadrant sws:NE;
+    sws:areaThouKm "256"^^xsd:integer;
+    sws:populationMil "22"^^xsd:integer;
+    dbpedia-owl:language sws:Other_Indo-European_language;
+    dbpprop:religion dbpedia:Marxism;
+    sws:numStripes "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Blue, sws:Gold_Yellow, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Red;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:topLeftCol dbpedia:Blue;
+    sws:botRightCol dbpedia:Red .
+
+sws:Zaire
+    dbpprop:commonName "Zaire"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "905"^^xsd:integer;
+    sws:populationMil "28"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, sws:Orange_Brown, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:numCircles "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image, sws:Icon;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
+sws:Zambia
+    dbpprop:commonName "Zambia"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "753"^^xsd:integer;
+    sws:populationMil "6"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numBars "3"^^xsd:integer;
+    sws:numColours "4"^^xsd:integer;
+    dbpedia-owl:colour dbpedia:Black, sws:Orange_Brown, dbpedia:Green, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:hasElement sws:Animate_image;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol sws:Orange_Brown .
+
+sws:Zimbabwe
+    dbpprop:commonName "Zimbabwe"^^xsd:string;
+    swportal:inContinent gn:6255146;
+    sws:quadrant sws:SE;
+    sws:areaThouKm "391"^^xsd:integer;
+    sws:populationMil "8"^^xsd:integer;
+    dbpedia-owl:language sws:Other_language;
+    dbpprop:religion sws:Ethnic_religion;
+    sws:numStripes "7"^^xsd:integer;
+    sws:numColours "5"^^xsd:integer;
+    dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Black, dbpedia:Green, dbpedia:White, dbpedia:Red;
+    sws:mainHue dbpedia:Green;
+    sws:numSunStars "1"^^xsd:integer;
+    sws:hasElement sws:Animate_image, dbpedia:Triangle, sws:Icon;
+    sws:topLeftCol dbpedia:Green;
+    sws:botRightCol dbpedia:Green .
+
