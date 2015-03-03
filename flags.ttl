@@ -9,7 +9,7 @@
 @prefix sws: <http://vocab.inf.ed.ac.uk/sws/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-sws:Afghanistan
+gn:1149361
     dbpprop:commonName "Afghanistan"^^xsd:string;
     swportal:inContinent gn:6255147;
     sws:quadrant sws:NE;
@@ -26,7 +26,7 @@ sws:Afghanistan
     sws:topLeftCol dbpedia:Black;
     sws:botRightCol dbpedia:Green .
 
-sws:Albania
+gn:783754
     dbpprop:commonName "Albania"^^xsd:string;
     swportal:inContinent gn:6255148;
     sws:quadrant sws:NE;
@@ -42,7 +42,7 @@ sws:Albania
     sws:topLeftCol dbpedia:Red;
     sws:botRightCol dbpedia:Red .
 
-sws:Algeria
+gn:2589581
     dbpprop:commonName "Algeria"^^xsd:string;
     swportal:inContinent gn:6255146;
     sws:quadrant sws:NE;
@@ -59,7 +59,7 @@ sws:Algeria
     sws:topLeftCol dbpedia:Green;
     sws:botRightCol dbpedia:White .
 
-sws:American-Samoa
+gn:5880801
     dbpprop:commonName "American-Samoa"^^xsd:string;
     swportal:inContinent gn:6255151;
     sws:quadrant sws:SW;
@@ -74,7 +74,7 @@ sws:American-Samoa
     sws:topLeftCol dbpedia:Blue;
     sws:botRightCol dbpedia:Red .
 
-sws:Andorra
+gn:3041565
     dbpprop:commonName "Andorra"^^xsd:string;
     swportal:inContinent gn:6255148;
     sws:quadrant sws:NE;
@@ -432,7 +432,7 @@ sws:Bulgaria
     sws:quadrant sws:NE;
     sws:areaThouKm "111"^^xsd:integer;
     sws:populationMil "9"^^xsd:integer;
-    dbpedia-owl:language [dbpedia-owl:languageFamily dbpedia:Slavic_languages];
+    dbpedia-owl:language [ dbpedia-owl:languageFamily dbpedia:Slavic_languages];
     dbpprop:religion dbpedia:Marxism;
     sws:numStripes "3"^^xsd:integer;
     sws:numColours "5"^^xsd:integer;
@@ -745,7 +745,7 @@ sws:Czechoslovakia
     sws:quadrant sws:NE;
     sws:areaThouKm "128"^^xsd:integer;
     sws:populationMil "15"^^xsd:integer;
-    dbpedia-owl:language [dbpedia-owl:languageFamily dbpedia:Slavic_languages];
+    dbpedia-owl:language [ dbpedia-owl:languageFamily dbpedia:Slavic_languages];
     dbpprop:religion dbpedia:Marxism;
     sws:numColours "3"^^xsd:integer;
     dbpedia-owl:colour dbpedia:Blue, dbpedia:White, dbpedia:Red;
@@ -2227,7 +2227,7 @@ sws:Poland
     sws:quadrant sws:NE;
     sws:areaThouKm "313"^^xsd:integer;
     sws:populationMil "36"^^xsd:integer;
-    dbpedia-owl:language [dbpedia-owl:languageFamily dbpedia:Slavic_languages];
+    dbpedia-owl:language [ dbpedia-owl:languageFamily dbpedia:Slavic_languages];
     dbpprop:religion dbpedia:Marxism;
     sws:numStripes "2"^^xsd:integer;
     sws:numColours "2"^^xsd:integer;
@@ -2930,7 +2930,7 @@ sws:USSR
     sws:quadrant sws:NE;
     sws:areaThouKm "22402"^^xsd:integer;
     sws:populationMil "274"^^xsd:integer;
-    dbpedia-owl:language [dbpedia-owl:languageFamily dbpedia:Slavic_languages];
+    dbpedia-owl:language [ dbpedia-owl:languageFamily dbpedia:Slavic_languages];
     dbpprop:religion dbpedia:Marxism;
     sws:numColours "2"^^xsd:integer;
     dbpedia-owl:colour sws:Gold_Yellow, dbpedia:Red;
